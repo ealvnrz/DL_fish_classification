@@ -8,7 +8,7 @@ Code tested on:
 
 - R version 4.3.1, running Arch Linux 6.5.7 (64 bits server)
 
- ## Project Structure:
+ ## Project structure:
 
 - augmented_images: Empty folder for augmented images.
 - codes
@@ -23,3 +23,26 @@ Code tested on:
 - README.md: This file.
 - resized_images: Empty folder for resized images. Needed for ```image_resizing.R```.
 - splitted_images: Empty folder for splitted imaged. Needed for ```data_split.R```.
+
+## Species codification
+
+| #   | Species                 |
+|-----|-------------------------|
+| 0   | Apristurus_nasutus      |
+| 1   | Brama_australis         |
+| 2   | Caelorincus_fasciatus   |
+| 3   | Cilus_gilberti          |
+| 4   | Eleginops_maclovinus    |
+| 5   | Engraulis_ringens       |
+| 6   | Epigonus_crassicaudus   |
+| 7   | Genypterus_chilensis    |
+| 8   | Genypterus_maculatus    |
+| 9   | Merluccius_gayi_gayi    |
+| 10  | Paralichthys_microps    |
+| 11  | Scomber_japonicus       |
+| 12  | Seriolella_punctata     |
+| 13  | Strangomera_bentincki   |
+| 14  | Stromateus_stellatus    |
+| 15  | Thyrsites_atun          |
+| 16  | Bovichtus chilensis     |
+| 17  | Trachurus_murphyi       |
