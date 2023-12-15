@@ -6,9 +6,9 @@ Code written by: Eloy Alvarado, with contributions of Francisco Plaza-Vega.
 
 Code tested on:
 
-- R version 4.3.1, running Arch Linux 6.5.7 (64 bits server)
+- R version 4.3.1 & Python 3.11.5 (reticulate), running Arch Linux 6.5.7 (64 bits server) 
 
- ## Project structure:
+ ## Project structure
 
 - augmented_images: Empty folder for augmented images.
 - codes
@@ -19,14 +19,16 @@ Code tested on:
     - ```testing.R```: Testing Custom and Adapted VGG16 CNN on testing images.
     - ```training.R```: Custom convolutional neural network.
 - LICENSE: CC0 1.0 Universal
-- raw_images: Empty folder for raw images. Images available in ```<url>```.
+- raw_images: Empty folder for raw images. 
 - README.md: This file.
 - resized_images: Empty folder for resized images. Needed for ```image_resizing.R```.
 - splitted_images: Empty folder for splitted imaged. Needed for ```data_split.R```.
 
-## Species codification
+## Raw images
 
-<center>
+Raw images used in this research article can be access as per request in ```<url>```.
+
+### Species codification
 
 | #   | Species                 |
 |-----|-------------------------|
@@ -49,4 +51,15 @@ Code tested on:
 | 16  | Bovichtus chilensis     |
 | 17  | Trachurus murphyi       |
 
-</center>
+## Configuration
+
+1. Request access to raw images as detailed in [Raw images section]{#raw-images}
+2. Copy all images into the raw_images folder
+3. In the ```main.R``` file:
+   - Set the codes folder as working directory
+   - Replace ```python_dir <- ""```with your local python binary.
+4. Run ```main.R``` file to train the Custom CNN and Adapted VGG16 classification model. This process will create 2 file in the working directory (```50epoch_cnn.h5``` and ```50epoch_vgg.h5```)
+5. By default, ```main.R``` file consider only the Custom CNN model for testing. Uncomment line 44 (and comment line 43) in the file to test the Adapted VGG16 model.
+  
+
+
