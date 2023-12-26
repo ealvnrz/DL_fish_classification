@@ -26,7 +26,7 @@ Code tested on:
 
 ## Raw images
 
-Raw images used in this research article can be access as per request in ```<url>```.
+Raw images used in this research article can be accessed at [https://drive.google.com/drive/folders/1NYsUiV_8zrakvLW6OLncO4MMhMETzg8F](https://drive.google.com/drive/folders/1NYsUiV_8zrakvLW6OLncO4MMhMETzg8F).
 
 ### Species codification
 
@@ -53,7 +53,7 @@ Raw images used in this research article can be access as per request in ```<url
 
 ## Configuration
 
-1. Request access to raw images as detailed in [Raw images section]{#raw-images}
+1. Request access to raw images as detailed in Raw images section.
 2. Copy all images into the raw_images folder
 3. In the ```main.R``` file:
    - Set the codes folder as working directory
